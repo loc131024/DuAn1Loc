@@ -12,7 +12,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-
+/**
+ *
+ * @author HP
+ */
 public class sanphamchitietService {
 
     public ArrayList<sanphamchitiet> getallsanphamchitiet() {
