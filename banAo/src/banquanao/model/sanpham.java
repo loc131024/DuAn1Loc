@@ -1,15 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package banquanao.model;
 
-/**
- *
- * @author HP
- */
+import javax.swing.table.DefaultTableModel;
+
 public class sanpham {
-   private String masp ,tensp;
+
+    private String masp, tensp;
     private int slSp;
 
     public sanpham() {
@@ -44,5 +39,5 @@ public class sanpham {
     public void setSlSp(int slSp) {
         this.slSp = slSp;
     }
-    
+
 }
